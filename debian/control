@@ -5,15 +5,17 @@ Maintainer: targetcli-fb developers <targetcli-fb-devel@lists.fedorahosted.org>
 Uploaders: Christophe Vu-Brugier <cvubrugier@fastmail.fm>,
            Ritesh Raj Sarraf <rrs@debian.org>,
            Christian Seiler <christian@iwakd.de>
-Build-Depends: debhelper(>= 9),
+Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
-               python-setuptools,
                python-epydoc,
+               python-pyparsing,
+               python-setuptools,
+               python-six,
                python3-all,
+               python3-pyparsing,
                python3-setuptools,
-Build-Depends-Indep: python-six,
-                     python3-six,
+               python3-six
 Standards-Version: 3.9.8
 Homepage: https://github.com/open-iscsi/configshell-fb
 
