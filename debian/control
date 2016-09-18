@@ -65,6 +65,7 @@ Description: Python library for building configuration shells - Python 3
 Package: python-configshell-fb-doc
 Section: doc
 Architecture: all
+Depends: ${misc:Depends}
 Description: Python library for building configuration shells - doc
  The configshell-fb package is a Python library that provides a
  framework for building simple but nice CLI-based applications.
